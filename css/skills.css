@@ -1,0 +1,35 @@
+  /* CSS styling for the list */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .skill-name {
+    font-weight: bold;
+    width: 120px;
+  }
+
+  .progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+
+  .bar {
+    height: 100%;
+    background-color: white;
+  }
+
+  .percentage {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+  }
